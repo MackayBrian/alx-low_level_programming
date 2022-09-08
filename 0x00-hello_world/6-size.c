@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints size of data types
+ * main-prints size of data types
  *
- * Return : 0
+ * Return: Always return (0)
  */
 int main(void)
 	{
@@ -13,10 +13,9 @@ int main(void)
 		float f;
 
 		printf("size of char: %ld byte(s)\n", sizeof(c));
-	        printf("size of int: %ld byte(s)\n", sizeof(i));
+		printf("size of int: %ld byte(s)\n", sizeof(i));
 		printf("size of long int: %ld byte(s)\n", sizeof(li));
- 		printf("size of long long: %ld byte(s)\n", sizeof(ll));
-		printf("size of float: %ld byte(s)\n", sizeof(f));	
-
+		printf("size of long long: %ld byte(s)\n", sizeof(ll));
+		printf("size of float: %ld byte(s)\n", sizeof(f));
 		return (0);
 	}
