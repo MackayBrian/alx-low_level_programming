@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main-prints all lower case alphabets in order
  *
@@ -8,10 +10,9 @@ int main(void)
 	{
 		char ch;
 
-		while (char <= 'z')
+		for (ch = 'a'; ch <= 'z'; ch++)
 		{
 			putchar(ch);
-			ch++;
 		}
 		putchar('\n');
 		return (0);
