@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * print_sign-ptints the sign of a number
- * @n: number which sign is to be printed
- */
+ * @n: number which sign is to be printed/
  *Return: 1 for positive 0 for 0 and -1 for negative
+ */
 int print_sign(int n)
 	{
 		if (n > 0)
