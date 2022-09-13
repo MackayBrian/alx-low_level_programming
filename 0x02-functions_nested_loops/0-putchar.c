@@ -7,7 +7,9 @@
  */
 int main(void)
 {
-int _putchar(char c)
+	int _putchar(void);
+}
+int _putchar(void)
 	{
 		_putchar('_');
 		_putchar('p');
@@ -20,4 +22,3 @@ int _putchar(char c)
 		_putchar('\n');
 		return (0);
 	}
-}
