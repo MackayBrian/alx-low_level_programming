@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include "main.h"
 /**
  * main-main function
  * Descriprion: A program that prints _putchar
