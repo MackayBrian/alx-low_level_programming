@@ -6,7 +6,7 @@
  * _putchar-prints the out put
  */
 int main(void)
-	
+	{	
 		_putchar('_');
 		_putchar('p');
 		_putchar('u');
