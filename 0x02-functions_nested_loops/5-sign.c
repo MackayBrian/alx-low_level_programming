@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign-ptints the sign of a number
- *
+ * @n: number which sign is to be printed
  */
 int print_sign(int n)
 	{
