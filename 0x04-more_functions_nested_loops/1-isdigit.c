@@ -7,18 +7,12 @@
  */
 int _isdigit(int c)
 	{
-		int i[10];
-
-		for (i = 0; i < 10; i++)
+		if (c >= '0' && c <= '9')
 		{
-			c[i] = i;
-		}
-		if (isdigit(c))
-		{
-			return (0);
+			return (1);
 		}
 		else
 		{
-			return (1);
+			return (0);
 		}
 	}
