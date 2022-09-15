@@ -15,10 +15,9 @@ void print_line(int n)
 		}
 	}
 		_putchar('\n');
-	else
+	else i
 		{
 			_putchar('\n');
 		}
-	
 	_putchar('\n');
 }
