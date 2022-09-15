@@ -5,9 +5,19 @@
  */
 void print_line(int n)
 {
-	while (n-- > 0)
+	if (n <= 0)
 	{
-		_putchar('_');
+		_putchar('\n');
 	}
-	putchar('\n');
+	else
+	{
+		int line;
+
+		for (line = 1; line <= n; line++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
+}
 
