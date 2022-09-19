@@ -5,8 +5,5 @@
  */
 void rev_string(char *s)
 {
-	int len = strlen(s);
-
-	while (len--)
-		_putchar(*(s + len));
+	revstr(s);
 }
