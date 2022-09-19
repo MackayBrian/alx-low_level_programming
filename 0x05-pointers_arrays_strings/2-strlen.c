@@ -6,6 +6,8 @@
  */
 int _strlen(char *s)
 	{
-		_putchar("%zu", strlen(s));
-		return (strlen);
+		int len;
+
+		len = strlen(s);
+		return (len);
 	}
