@@ -6,16 +6,19 @@
 void puts_half(char *str)
 {
 	int len = strlen(str);
-	int i, mid = len / 2;
-	char secondh[10];
+	int mid;
 
-	if (len % 2 != 0)
+	if (len % 2 == 1)
 	{
 		mid = (len - 1) / 2;
-		for (i = 0; i > mid; i++)
-		{
-			str[i] = secondh[10];
-		}
 	}
-	_putchar(secondh);
+	else
+	{
+			mid = len / 2;
+	}
+	for (i = mid; i < len; i++);
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
