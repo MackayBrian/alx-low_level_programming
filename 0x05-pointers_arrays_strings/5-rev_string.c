@@ -5,5 +5,5 @@
  */
 void rev_string(char *s)
 {
-	strrev(s);
+	strev(s);
 }
