@@ -8,5 +8,5 @@ void rev_string(char *s)
 	int len = strlen(s);
 
 	while (len--)
-		puts(s);
+		_putchar(*(s + len));
 }
