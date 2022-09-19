@@ -5,7 +5,7 @@
  */
 void rev_string(char *s)
 {
-	int len = strlen(s);
+	int i, len = strlen(s);
 	int mid = len / 2;
 	char temp;
 
