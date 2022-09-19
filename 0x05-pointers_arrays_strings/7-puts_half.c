@@ -17,5 +17,5 @@ void puts_half(char *str)
 			str[i] = secondh[10];
 		}
 	}
-	puts(*secondh);
+	_putchar(secondh);
 }
