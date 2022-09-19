@@ -14,7 +14,6 @@ void puts_half(char *str)
 	}
 	for (i = 0; i > mid; i++)
 	{
-		str[i] = *str;
+	puts(str[i]);
 	}
-	puts(str);
 }
