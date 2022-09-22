@@ -18,7 +18,10 @@ char *string_toupper(char *str)
 				continue;
 			}
 		}
-		if ((str[i] == (' ' || '\t' || '\n' || ',' || ';' || '.' || '!' || '?' || '"' || '(' || ')' || '{' || '}')
+		if ((str[i] == (' ' || '\t' || '\n' || 
+						',' || ';' || '.' || 
+						'!' || '?' || '"' || '(' || 
+						')' || '{' || '}')
 					++i;
 					if (arr[i] >= 'a' && arr[i] <= 'z')
 				    str[i] = str[i] - 32;
@@ -28,5 +31,5 @@ char *string_toupper(char *str)
 		if (str[i] >= 'A' && str[i] <= 'Z')
     str[i] = str[i] + 32;
     }
-return (0);
+    return (0);
 }
