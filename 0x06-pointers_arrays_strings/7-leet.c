@@ -18,6 +18,7 @@ char *leet(char *str)
 					str[i] - 32 == leet[i2])
 				str[i] = i2 + '0';
 		}
+		i++;
 	}
 	return (str);
 }
