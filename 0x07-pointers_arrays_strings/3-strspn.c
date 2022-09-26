@@ -9,14 +9,14 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	size_t init_len = 0;
-	size_t len1 = strlen(s);
-	size_t len2 = strlen(accept);
+	int init_len = 0;
+	int len1 = strlen(s);
+	int len2 = strlen(accept), i, j;
 	bool found_match = false;
 
-	for (size_t i = 0; i < len1; i++)
+	for (i = 0; i < len1; i++)
 	{
-		for (size_t j = 0; j <= len2; j++)
+		for (j = 0; j <= len2; j++)
 			if (accept[j] == s[i])
 			{
 				found_match = true;
