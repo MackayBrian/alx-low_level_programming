@@ -12,6 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 	size_t init_len = 0, i, j;
 	size_t len1 = strlen(s);
 	size_t len2 = strlen(accept);
+	bool found_match = false;
 
 	for (size_t i = 0; i < len1; i++)
 	{
@@ -19,12 +20,11 @@ unsigned int _strspn(char *s, char *accept)
 			if (accept[j] == s[i])
 			{
 				found_match = true;
+				init_len++;
 				break;
 			}
 		if (!found_match)
 			break;
-		else
-			init_len++;
 	}
 	return (init_len);
 }
