@@ -14,9 +14,9 @@ unsigned int _strspn(char *s, char *accept)
 	size_t len2 = strlen(accept);
 	bool found_match = false;
 
-	for (size_t i = 0; i < len1; i++)
+	for (i = 0; i < len1; i++)
 	{
-		for (size_t j = 0; j < len2; j++)
+		for (j = 0; j < len2; j++)
 			if (accept[j] == s[i])
 			{
 				found_match = true;
