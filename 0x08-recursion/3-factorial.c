@@ -6,7 +6,7 @@
  */
 int factorial(int n)
 {
-	int i;
+	unsigned int i;
 
 	if (n == 1)
 	{
@@ -14,7 +14,7 @@ int factorial(int n)
 	}
 	if (n == 0)
 	{
-		return (0);
+		return (1);
 	}
 	{
 		i = n * factorial(n - 1);
