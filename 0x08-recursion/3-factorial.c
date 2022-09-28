@@ -6,18 +6,16 @@
  */
 int factorial(int n)
 {
-	unsigned int i;
+	int i;
 
-	if (n == 1)
+	if (n < )
+	{
+		return (-1);
+	}
+	else if (n >= 0 && n <= 1)
 	{
 		return (1);
 	}
-	if (n == 0)
-	{
-		return (1);
-	}
-	{
-		i = n * factorial(n - 1);
-		return (i);
-	}
+	i = n * factorial(n - 1);
+	return (i);
 }
