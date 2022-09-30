@@ -4,6 +4,8 @@
 #include <string.h>
 #include <stdio.h>
 
+int _atoi(char *s);
+
 void revstr(char); 
 int _putchar(char);
 void reset_to_98(int *n);
