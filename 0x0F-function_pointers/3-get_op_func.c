@@ -6,10 +6,10 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
-	opt_t opts[] = {
+	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
-		{"*", op_muk},
+		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
 		{NULL, NULL}
