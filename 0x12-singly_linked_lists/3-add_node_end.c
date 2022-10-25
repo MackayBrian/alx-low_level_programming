@@ -7,7 +7,7 @@
  * @str: the string to be added to the list
  * Return:new element address on success NULL on failure
  */
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	char *dup;
 	int len;
