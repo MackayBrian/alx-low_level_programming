@@ -1,4 +1,4 @@
-exterb printf
+extern printf
 
 section .text
  global main
