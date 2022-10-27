@@ -6,7 +6,7 @@
 #include <string.h>
 /**
  * struct listint_s - singly linked list
- * @data: integer
+ * @n: integer
  * @next:pointer to next node
  *
  * Description: singly linked list node for this project
