@@ -4,7 +4,7 @@
  * index index of a listint_t linked list.
  * @index:index of the node that should be deleted
  * @head:pointer to address of head
- * Return 1 if succeded else -1
+ * Return:1 if succeded else -1
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
