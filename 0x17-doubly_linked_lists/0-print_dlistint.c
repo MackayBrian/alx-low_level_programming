@@ -6,13 +6,13 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	int c = 1;
+	size_t nelem;
 
+	nelem = 0;
 	while (h != NULL)
 	{
-		printf("%d", h->n);
-		h = h->next;
-		c++;
+		printf("%d", d->n);
+		nelem++;
 	}
-	return (c);
+	return (nelem);
 }
